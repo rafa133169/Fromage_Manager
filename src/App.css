@@ -66,7 +66,7 @@ border-bottom-right-radius: .3rem;
 
 :root {
   --blanco: #E0E0E0;
-  --azul-opacidad: #F4B970;
+  --beige-opacidad: #F4B970;
   --bg-menu: #FBFFE2;
   --bg-body: #C7E1FF;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .menu-dashboard {
-  max-width: 130px;
+  max-width: 100px;
   height: 100vh;
   background: var(--bg-menu);
   padding: 20px;
@@ -106,7 +106,7 @@ body {
 }
 
 .top-menu .logo img {
-  width: 40px;
+  width: 30px;
   transition: width .3s ease;
 }
 
@@ -132,7 +132,7 @@ body {
 .input-search {
   width: 100%;
   margin: 50px 0;
-  background-color: var(--azul-opacidad);
+  background-color: var(--beige-opacidad);
   padding: 15px;
   border-radius: 8px;
   display: flex;
@@ -168,7 +168,7 @@ body {
 }
 
 .menu .enlace:hover {
-  background: var(--azul-opacidad);
+  background: var(--beige-opacidad);
 }
 
 .menu .enlace i {
